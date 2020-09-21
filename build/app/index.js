@@ -203,7 +203,7 @@ eval("var AppDelayController = __webpack_require__(/*! ../controller/AppDelayCon
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var _require = __webpack_require__(/*! exmd */ \"exmd\"),\n    startProject = _require.startProject;\n\nvar router = __webpack_require__(/*! ./router */ \"./router/index.js\");\n\nvar Datasource = __webpack_require__(/*! ./config/data-source */ \"./config/data-source.js\");\n\nvar all = __webpack_require__(/*! exmd */ \"exmd\");\n\nstartProject({\n  router: router,\n  Datasource: Datasource\n});\n\n//# sourceURL=webpack:///./start.js?");
+eval("var _require = __webpack_require__(/*! exmd */ \"exmd\"),\n    startProject = _require.startProject;\n\nvar router = __webpack_require__(/*! ./router */ \"./router/index.js\");\n\nvar Datasource = __webpack_require__(/*! ./config/data-source */ \"./config/data-source.js\");\n\nstartProject({\n  router: router,\n  Datasource: Datasource\n});\n\n//# sourceURL=webpack:///./start.js?");
 
 /***/ }),
 

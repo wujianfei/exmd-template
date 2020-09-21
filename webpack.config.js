@@ -7,7 +7,8 @@ let externals = _externals()
 
 module.exports = {
   entry: {
-    app: __dirname + '/start.js'
+    app: __dirname + '/start.js',
+    swagger: __dirname + '/auxiliary/index.js',
   },
   target: 'node',
   output: {

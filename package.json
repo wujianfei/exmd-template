@@ -7,13 +7,14 @@
     "serve": "sh dev.sh",
     "build": "sh build.sh",
     "update:lib": "sh update-lib.sh",
-    "swagger": "node auxiliary"
+    "swagger": "cd ./build/app-swagger && sh run.sh",
+    "build:swagger": "sh build-swagger.sh"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "exmd": "^1.0.19",
-    "exmd-auxiliary": "^1.0.6"
+    "exmd-auxiliary": "^1.0.14"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
