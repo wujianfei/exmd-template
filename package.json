@@ -8,13 +8,15 @@
     "build": "sh build.sh",
     "update:lib": "sh update-lib.sh",
     "swagger": "cd ./build/app-swagger && sh run.sh",
-    "build:swagger": "sh build-swagger.sh"
+    "build:swagger": "sh build-swagger.sh",
+    "migrate": "node ./bin/migrate.js",
+    "asyncdb": "node ./bin/asyncdb.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "exmd": "^1.0.19",
-    "exmd-auxiliary": "^1.0.14"
+    "exmd": "^1.0.22",
+    "exmd-auxiliary": "^1.0.15"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
